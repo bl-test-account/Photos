@@ -1,47 +1,47 @@
 .frame {
-    width: 100%;
-    height: auto;
-    position: relative;
-    margin-top: 8px;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 8px;
 }
 
 .preview-frame {
-    margin: 1px 1px 1px 1px;
-    display: inline-block;
-    overflow: hidden;
-    background: rgba(196, 196, 196, 1.0);
-    vertical-align: top;
-    position: relative;
+  margin: 1px 1px 1px 1px;
+  display: inline-block;
+  overflow: hidden;
+  background: rgba(196, 196, 196, 1.0);
+  vertical-align: top;
+  position: relative;
 }
 
 .count-tag {
-    margin: 1px 1px 1px 1px;
-    left: 0;
-    right: 0;
-    display: block;
-    color: white;
-    background: rgba(27, 150, 219, 1.0);
+  margin: 1px 1px 1px 1px;
+  left: 0;
+  right: 0;
+  display: block;
+  color: white;
+  background: rgba(27, 150, 219, 1.0);
 }
 
 .count-tag p {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-    text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 0;
+  text-align: center;
 }
 
 img {
-    top: 0;
-    right: 0;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    vertical-align: top;
-    position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  position: absolute;
 }
 
 body {
-    margin-left: 8px;
-    margin-right: 8px;
-    padding: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding: 0;
 }
