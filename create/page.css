@@ -6,6 +6,10 @@
   position:relative;
 }
 
+.hidden{
+  visibility:hidden;
+}
+
 .processing {
   position:absolute;
   top:50%;

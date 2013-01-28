@@ -4,6 +4,8 @@ var PhotoCreate = function () {
 PhotoCreate.prototype.photo = null;
 
 PhotoCreate.prototype.photoCaptured = function (data) {
+  $('.processing').addClass('hidden');
+  
   var photoProcessingDiv = $('.photo-pane');
   var photoDiv = $('<img class="aspect-img" src="' + data.urls.full + '"></img>');
   photoProcessingDiv.append(photoDiv);
