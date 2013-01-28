@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+.processing {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .aspect-img {
   width: 100%;
   vertical-align: bottom;
