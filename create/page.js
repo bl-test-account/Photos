@@ -31,6 +31,6 @@ $(function () {
   window.photoCreate = new PhotoCreate();
   $('#take').click(photoCreate.retakePressed.bind(photoCreate));
   $('#upload').click(photoCreate.uploadPressed.bind(photoCreate));
-  BL.getPicture(photoCreate.photoCaptured.bind(photoCreate));
+  //BL.getPicture(photoCreate.photoCaptured.bind(photoCreate));
 });
 
