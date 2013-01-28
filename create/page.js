@@ -17,6 +17,7 @@ PhotoCreate.prototype.retakePressed = function (e) {
   $('.aspect-img').remove();
   this.photo = null;
   BL.getPicture(photoCreate.photoCaptured.bind(photoCreate));
+  $('.processing').removeClass('hidden');
 }
 
 PhotoCreate.prototype.uploadPressed = function (e) {
