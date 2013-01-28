@@ -3,6 +3,7 @@
   height: 76%;
   background: rgb(200, 200, 200);
   overflow: hidden;
+  position:relative;
 }
 
 .processing {
