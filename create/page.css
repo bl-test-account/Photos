@@ -6,7 +6,8 @@
 }
 
 .processing {
-  margin-top:50%;
+  position:absolute;
+  top:50%;
   text-align:center;
   width:100%;
 }
