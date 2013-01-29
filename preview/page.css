@@ -41,6 +41,18 @@ img {
   position: absolute;
 }
 
+img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
 body {
   margin-left: 8px;
   margin-right: 8px;
