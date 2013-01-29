@@ -10,6 +10,11 @@ PhotoCreate.prototype.photoCaptured = function (data) {
   var photoDiv = $('<img class="aspect-img" src="' + data.urls.full + '"></img>');
   photoProcessingDiv.append(photoDiv);
 
+  photoProcessingDiv.find('img').each(function(){
+  var imgClass = (this.width/this.height > 1) ? 'wide' : 'tall';
+  $(this).addClass(imgClass);
+  })
+  
   this.photo = data.urls;
 }
 
